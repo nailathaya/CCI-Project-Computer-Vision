@@ -1,4 +1,10 @@
 ultralytics==8.3.167
 torch==2.6.0
+kagglehub
+albumentations
+tensorflow
 opencv-python
+Pillow
+matplotlib
+tqdm
 numpy
