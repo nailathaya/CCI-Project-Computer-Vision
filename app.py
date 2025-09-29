@@ -1,11 +1,11 @@
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
 import streamlit as st
 from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 import av
 from ultralytics import YOLO
 import cv2
-
-import os
-os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
 
 model = YOLO("models/best.pt")
 
