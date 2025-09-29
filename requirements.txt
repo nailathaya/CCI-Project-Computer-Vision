@@ -3,12 +3,11 @@ torch==2.6.0
 kagglehub
 albumentations
 tensorflow
-opencv-python
+opencv-python-headless==4.11.0.86
 Pillow
 matplotlib
 tqdm
 numpy
 streamlit
 streamlit-webrtc
-opencv-python-headless
 av
