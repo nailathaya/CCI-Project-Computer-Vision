@@ -4,6 +4,9 @@ import av
 from ultralytics import YOLO
 import cv2
 
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
 model = YOLO("models/best.pt")
 
 st.title("Deteksi Objek Realtime dengan Kamera")
