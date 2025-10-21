@@ -8,6 +8,7 @@ Pillow
 matplotlib
 tqdm
 numpy
-streamlit
+streamlit>=1.33.0
+protobuf<5
 streamlit-webrtc
 av
